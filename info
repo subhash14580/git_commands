@@ -1,0 +1,49 @@
+1.git clone https://*.git
+2.cd tab
+2.git checkout -b branch name
+3.change the code and commit the changes
+	i) git add file_name
+	ii) git commit -m "some message"
+	iii) git push
+4)switch to master  --- > git checkout master
+
+--> To see all the branches of the repo
+	git branch -a
+--> To see all the logs like code commits 
+	git log
+--> to pull the changes and make up to date
+	git pull
+--> To change the commit message before push[how-to-modify-existing-unpushed-commit-messages]
+	git commit --amend -m "MSG _AFTER_COMMIT_MSG"
+--> To move from the master to another branch, 
+	git checkout branch_name
+--> To move from the another branch, first commit all the changes in the child branch then only you can move to 
+	the master. 
+	git checkout master
+--> git mergetool
+--> Undo a "git add " command
+	git reset HEAD
+--> undo last commit message
+	$ git commit --amend -m "New commit message."
+--> To create new branch and push to repo
+	git checkout -b branch_name
+	git push origin branch_name:branch_name
+
+--> I deleted a file but didn’t commit
+So you deleted a file, and immediately realized it was a mistake? This one is easy, just do:
+
+$ git checkout HEAD <filename>
+
+
+
+
+^[.\\p{Alnum}\\p{Punct}\\p{Space}*,()&+-]+$
+
+
+Use regex101.com. Paste your regex expression and read the explanation
+
+
+
+
+
+6932900
