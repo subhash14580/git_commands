@@ -1,3 +1,14 @@
+How to generate the ssh keys and add it to github/gitlab
+1.Generate the keys using the following command
+	ssh-keygen -t rsa -b 4096 -C "subhash.narkedamilli@{domain}.com"
+The two files will be created in either in the .ssh folder [path = user/username/.ssh] or present directory
+If keys are generated in the present directory, create .ssh folder under username folder and copy those files.
+Now copy all the contents of the .pub file and paste it in the github repository [ under the "add ssh keys section"].
+
+Check are u able to clone the repository using git clone command.
+
+
+
 1.git clone https://*.git
 2.cd tab
 2.git checkout -b branch name
