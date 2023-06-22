@@ -39,6 +39,8 @@ Check are u able to clone the repository using git clone command.
 --> To create new branch and push to repo
 	git checkout -b branch_name
 	git push origin branch_name:branch_name
+--> To reset the author command, when author is taking from the host computer
+	git commit --amend --reset-author --no-edit
 
 --> I deleted a file but didn’t commit
 So you deleted a file, and immediately realized it was a mistake? This one is easy, just do:
