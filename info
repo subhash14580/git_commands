@@ -41,6 +41,8 @@ Check are u able to clone the repository using git clone command.
 	git push origin branch_name:branch_name
 --> To reset the author command, when author is taking from the host computer
 	git commit --amend --reset-author --no-edit
+--> To abort the merge i.e taken the pull from another branch and decided not to merge, then use this command.
+	git merge --abort
 
 --> I deleted a file but didn’t commit
 So you deleted a file, and immediately realized it was a mistake? This one is easy, just do:
