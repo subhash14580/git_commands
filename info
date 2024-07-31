@@ -49,6 +49,9 @@ So you deleted a file, and immediately realized it was a mistake? This one is ea
 
 $ git checkout HEAD <filename>
 
+--> Squash 3 Commits in git : 
+git rebase -i HEAD~3
+https://www.geeksforgeeks.org/git-squash/
 
 
 
